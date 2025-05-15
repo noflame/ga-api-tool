@@ -9,9 +9,10 @@ dependencies = [
     "google-auth-httplib2>=0.2.0",
     "google-auth-oauthlib>=1.2.2",
     "requests>=2.32.3",
+    "types-requests[dev]>=2.32.0.20250328",
 ]
 
-[dependency-groups]
+[project.optional-dependencies]
 dev = [
     "google-auth-stubs>=0.3.0",
     "python-dotenv>=1.1.0",
